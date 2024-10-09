@@ -27,10 +27,10 @@ with st.sidebar:
   body_mass_g = st.slider('Body mass (g)', 2700.0, 6300.0, 4207.0)
   gender= st.selectbox('Gender',('male','female'))
   Date = {'Island':island,
-          'bill_length_mm' = Bill length (mm),
-          'bill_depth_mm'  = Bill Depth (mm),
-          'flipper_length_mm' =Flipper length (mm),
-          'body_mass_g'      = Body mass (g)
+          'bill_length_mm' : Bill length (mm),
+          'bill_depth_mm'  : Bill Depth (mm),
+          'flipper_length_mm' :Flipper length (mm),
+          'body_mass_g'      : Body mass (g)
           'Sex':Gender}
  input_df = pd.DataFrame(data, index=[0])
  input_df
