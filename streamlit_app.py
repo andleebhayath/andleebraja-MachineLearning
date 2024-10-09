@@ -32,8 +32,8 @@ with st.sidebar:
           'flipper_length_mm' :Flipper_length_(mm),
           'body_mass_g'      : Body_mass_(g),
           'Sex':Gender}
- input_df = pd.DataFrame(data, index=[0])
- input_df
+  input_df = pd.DataFrame(data, index=[0])
+  input_df
  
           
        
