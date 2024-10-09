@@ -22,7 +22,7 @@ with st.sidebar:
   st.header('Input Feature')
   island = st.selectbox('IsLand',('Biscoe','Dream','Torgerson'))
   bill_length_mm = st.slider('Bill length (mm)', 32.1, 59.6, 43.9)
-  bill_depth_mm= st.slider(Bill Depth (mm)', 31.1, 21.6, 17.2)
+  bill_depth_mm= st.slider('Bill Depth (mm)', 31.1, 21.6, 17.2)
   
   
    
