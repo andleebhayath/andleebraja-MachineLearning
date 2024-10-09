@@ -28,7 +28,7 @@ with st.sidebar:
   gender= st.selectbox('Gender',('male','female'))
   Date = {'Island':island,
           'bill_length_mm' = Bill length (mm),
-          'bill_depth_mm  = Bill Depth (mm),
+          'bill_depth_mm'  = Bill Depth (mm),
           'flipper_length_mm' =Flipper length (mm),
           'body_mass_g'      = Body mass (g)
           'Sex':Gender}
