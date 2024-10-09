@@ -30,7 +30,7 @@ with st.sidebar:
           'bill_length_mm' : Bill length (mm),
           'bill_depth_mm'  : Bill Depth (mm),
           'flipper_length_mm' :Flipper length (mm),
-          'body_mass_g'      : Body mass (g)
+          'body_mass_g'      : Body mass (g),
           'Sex':Gender}
  input_df = pd.DataFrame(data, index=[0])
  input_df
