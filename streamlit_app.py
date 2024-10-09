@@ -8,7 +8,10 @@ with st.expander('Data'):
   st.write('**Raw Data**')
   df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
   df
-  st.write('**X**')
-  x_raw = df.drop(species,axis[1])
+  st.write('**x**')
+  x_raw = df.drop('species', axis=1)
   x_raw
+  st.write('**y**')
+  y_raw= df.species
+  y_raw
 
