@@ -1,4 +1,6 @@
 streamlit
+langchain
+langchain_community
 pandas
 numpy
 scikit-learn
