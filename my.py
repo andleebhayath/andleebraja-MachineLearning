@@ -7,8 +7,7 @@ if st.button("Generate"):
     if prompt:
         with st.spinner("Generating response..."):
 
-            for response in llm.stream(prompt, stop=['<|eot_id>']):
-                st.write(response['text'])
+            
 
-            ----st.write_stream(llm.stream(prompt,stop=['<|eot_id>']))
+            st.write_stream(llm.stream(prompt,stop=['<|eot_id>']))
         
